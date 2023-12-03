@@ -93,7 +93,12 @@ public class HamiltonianBacktrack {
          */
         path[0] = 0;
 
-        System.out.println(findPathUtil(graph, path, 1, V));
+        if (findPathUtil(graph, path, 1, V) == false) {
+            System.out.println("FALSE");
+            return;
+        }
+
+        System.out.println("TRUE");
     }
 
     public static void find(int graph[][]) {

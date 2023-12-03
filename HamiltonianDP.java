@@ -57,8 +57,8 @@ public class HamiltonianDP {
 
         // Function Call
         if (Hamiltonian_path(graph, N))
-            System.out.println(true);
+            System.out.println("TRUE");
         else
-            System.out.println(false);
+            System.out.println("FALSE");
     }
 }
